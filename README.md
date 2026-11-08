@@ -4,6 +4,8 @@ Analyze crop production trends, compare yields, and visualize patterns across re
 
 Beginner-friendly Python + MySQL + Pandas + NumPy + Matplotlib + Streamlit project.
 
+Live Dashboard : https://gilded-wisp-328889.netlify.app
+
 ## Units
 - cultivated_area: hectares
 - production: tonnes
