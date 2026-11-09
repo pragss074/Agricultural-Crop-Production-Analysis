@@ -24,7 +24,7 @@ def prepare_data(df):
         df.loc[valid_yield, "production"]
         / df.loc[valid_yield, "cultivated_area"]
     )
-    return df
+    return  df
 
 
 def create_reports(df, output_folder="reports"):
