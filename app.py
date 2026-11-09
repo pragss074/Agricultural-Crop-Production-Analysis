@@ -21,7 +21,7 @@ def read_database():
         join regions r on cr.region_id = r.region_id
         order by cr.year, c.crop_name, r.region_name
         """
-        return pd.read_sql(query, connection)
+        return  pd.read_sql(query, connection)
     finally:
         connection.close()
 
