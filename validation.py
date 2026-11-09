@@ -14,7 +14,7 @@ EXPECTED_UNITS = {
 
 
 def validate_crop_data(data):
-    """Return a copy of the data and a dictionary of data-quality findings."""
+    """Return a copy of the data and a dictionary of  data-quality findings."""
     df = data.copy()
     issues = {}
 
